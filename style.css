@@ -27,75 +27,71 @@ body {
 .top, .bottom {
     width: 100%;
     height: 50%;
-    background-color: yellow;
-}
-
-.bottom {
-    background-color: blue;
 }
 
 #wrapper {
     width: 66%;
     padding: 20px;
-    background-color: #ffffff;
+    background-color: #fff8f8;
     border-left: 1px solid #D8C7BF;
     border-right: 1px solid #D8C7BF;
 }
 
 .ad {
-    background: red;
     width: 100%;
     height: 144px;
+    text-align: center;
+}
+
+.ad img {
+    width: 100%;
+    max-width: 720px;
+    height: 100%;
+}
+
+.indented {
+    padding-left: 4em;
+    margin: 0;
 }
 
 h1 {
-    font-size: 2rem;
-    margin-bottom: 0.2rem;
+    font-size: 2em;
+    margin-bottom: 0.2em;
     color: #5A2A1E;
 }
 
 h2 {
-    font-size: 1.5rem;
-    margin-top: 1.2rem;
-    margin-bottom: 0.4rem;
+    font-size: 1.5em;
+    margin-top: 1.2em;
+    margin-bottom: 0.4em;
     color: #8A4A3A;
 }
 
 h3 {
-    font-size: 1.2rem;
-    margin-top: 1rem;
-    margin-bottom: 0.3rem;
+    font-size: 1.2em;
+    margin-top: 1em;
+    margin-bottom: 0.3em;
     color: #8A4A3A;
 }
 
 h4 {
-    font-size: 1rem;
-    margin-top: 0.8rem;
-    margin-bottom: 0.2rem;
+    font-size: 1em;
+    margin-top: 0.8em;
+    margin-bottom: 0.2em;
     color: #8A4A3A;
 }
 
 p {
-    line-height: 1.4rem;
-    margin-bottom: 1rem;
+    line-height: 1.4em;
+    margin-bottom: 1em;
 }
 
 ul,
 ol {
-    margin-left: 2rem;
-    margin-bottom: 1rem;
-}
-
-ol li ::marker {
-    color: #C8B7AF;
+    margin-left: 2em;
+    margin-bottom: 1em;
 }
 
 li {
-    margin-bottom: 0.4rem;
-}
-
-hr {
-    border: 0;
-    border-top: 1px solid #C8B7AF;
-    margin: 2rem 0;
+    margin-bottom: 0.4em;
 }
