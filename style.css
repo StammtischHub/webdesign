@@ -6,47 +6,42 @@ body {
     background-color: #FFEDE3;
     margin: 0;
     padding: 0;
-}
-
-#main {
-    display: table;
-    width: 100%;
-    height: 100%;
-}
-
-.column {
-    display: table-cell;
-    vertical-align: top;
-}
-
-#left, #right {
-    width: 15%;
-    height: 100%;
-}
-
-.top, .bottom {
-    width: 100%;
-    height: 50%;
+    position: relative;
 }
 
 #wrapper {
-    width: 66%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#ads {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#nav {
+    list-style: none;
+}
+
+#nav img {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#bmw {
+    top: 0;
+    left: 0;
+}
+
+#recipy {
+    height: 600px;
     padding: 20px;
+    margin: 90px 250px;
     background-color: #fff8f8;
-    border-left: 1px solid #D8C7BF;
-    border-right: 1px solid #D8C7BF;
-}
-
-.ad {
-    width: 100%;
-    height: 144px;
-    text-align: center;
-}
-
-.ad img {
-    width: 100%;
-    max-width: 720px;
-    height: 100%;
+    overflow: auto;
 }
 
 .indented {
