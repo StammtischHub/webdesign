@@ -60,28 +60,28 @@ body {
 #ad-left-top {
     top: 0;
     left: 0;
-    width: 250px;
+    width: 248px;
     height: 450px;
 }
 
 #ad-left-bottom {
     top: 450px;
     left: 0;
-    width: 250px;
+    width: 248px;
     height: 450px;
 }
 
 #ad-right-top {
     top: 0;
     right: 0;
-    width: 250px;
+    width: 248px;
     height: 450px;
 }
 
 #ad-right-bottom {
     top: 450px;
     right: 0;
-    width: 250px;
+    width: 248px;
     height: 450px;
 }
 
