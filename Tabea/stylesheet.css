@@ -85,5 +85,37 @@ section {
   font-size: 20px;
 }
 
+.specs{
+  height: 95vh;
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start;
+  justify-content: flex-start;
+  background-color: #080808;  
+  border-top: 2px solid #CC0000;
+
+}
+
+.subtitle{
+  font-size: 15px;
+  margin-left: 5%;
+  margin-top: 5%;
+  margin-bottom: 0;
+  color: #CC0000;
+}
+
+.line{
+  height: 2px;
+  width: 50px;
+  margin-left: 5%;
+  background-color: #CC0000;
+}
+
+.specs h1{
+  font-size: 50px;
+  margin-left: 5%;
+  margin-top: 10px;
+}
+
 
 /* Footer*/
