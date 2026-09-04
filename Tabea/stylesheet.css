@@ -41,9 +41,6 @@ nav a:hover {
 }
 
 /* main body*/
-main{
-  padding-top: 70px;
-}
 
 section {
   min-height: 100px;
@@ -59,13 +56,13 @@ section {
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
-  background-image: url('assets/img/Headlights_mit_Person.webp');
+  background-image: url('assets/img/front_light.jpeg');
   background-size: cover;
-  background-position: center;
+  background-position: center 5%;
 }
 
 .home-inner{
-  background-color: #080808;
+  background-color: rgb(8,8,8,0.7);
   margin-left: 5%;
   padding: 10px;
 }
@@ -84,10 +81,9 @@ section {
 }
 
 .home-text{
-  color: #777;
+  color: #888;
   font-size: 20px;
 }
-
 
 
 /* Footer*/
