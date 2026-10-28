@@ -1,4 +1,4 @@
-# Showcase Website
+# Website-Entwicklung im Rahmen des Studiums
 
 Diese Websites entstanden im Rahmen des Moduls *Webdesign und Standards II* an der Berufsakademie Rhein-Main im Rahmen unseres Informatik Studiums.
 
